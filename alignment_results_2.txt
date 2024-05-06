@@ -1,0 +1,273 @@
+Score Matrix:
+0	-2	-4	-6	-8	-10	-12	-14	-16	-18	-20	-22	-24	-26	-28	-30	-32	-34	-36	-38	-40
+-2	-1	-1	-3	-5	-7	-9	-11	-13	-15	-17	-19	-21	-23	-25	-27	-29	-31	-33	-35	-37
+-4	-3	-2	-2	-4	-6	-8	-10	-12	-14	-16	-18	-20	-22	-24	-24	-26	-28	-30	-32	-34
+-6	-3	-4	-3	-1	-3	-5	-7	-9	-11	-13	-15	-17	-19	-21	-23	-25	-27	-29	-31	-33
+-8	-5	-4	-5	-2	0	-2	-4	-6	-8	-10	-12	-14	-16	-18	-20	-22	-24	-26	-28	-30
+-10	-7	-6	-5	-4	-2	-1	-1	-3	-5	-7	-9	-11	-13	-15	-17	-19	-21	-23	-25	-27
+-12	-9	-8	-7	-6	-4	-3	-2	-2	-4	-6	-8	-10	-12	-14	-14	-16	-18	-20	-22	-24
+-14	-11	-10	-9	-8	-6	-5	-2	-1	-3	-5	-7	-9	-11	-13	-15	-15	-17	-19	-21	-23
+-16	-13	-10	-9	-10	-8	-7	-4	-3	0	-2	-4	-6	-8	-10	-12	-14	-14	-16	-18	-20
+-18	-15	-12	-9	-10	-10	-9	-6	-5	-2	1	-1	-3	-5	-7	-9	-11	-13	-13	-15	-17
+-20	-17	-14	-11	-8	-9	-9	-8	-7	-4	-1	0	0	-2	-4	-6	-8	-10	-12	-14	-16
+
+Final Score: -16
+Number of Optimal Alignments: 64
+
+Optimal Alignments:
+Alignment 1:
+--tcaa-g------cgtt-a
+attaaaggtttataccttcc
+
+Alignment 2:
+-t-caa-g------cgtt-a
+attaaaggtttataccttcc
+
+Alignment 3:
+-tc-aa-g------cgtt-a
+attaaaggtttataccttcc
+
+Alignment 4:
+-tca-a-g------cgtt-a
+attaaaggtttataccttcc
+
+Alignment 5:
+-tcaa--g------cgtt-a
+attaaaggtttataccttcc
+
+Alignment 6:
+--tcaag-------cgtt-a
+attaaaggtttataccttcc
+
+Alignment 7:
+-t-caag-------cgtt-a
+attaaaggtttataccttcc
+
+Alignment 8:
+-tc-aag-------cgtt-a
+attaaaggtttataccttcc
+
+Alignment 9:
+-tca-ag-------cgtt-a
+attaaaggtttataccttcc
+
+Alignment 10:
+-tcaa-g-------cgtt-a
+attaaaggtttataccttcc
+
+Alignment 11:
+--tcaa-g------cgtta-
+attaaaggtttataccttcc
+
+Alignment 12:
+-t-caa-g------cgtta-
+attaaaggtttataccttcc
+
+Alignment 13:
+-tc-aa-g------cgtta-
+attaaaggtttataccttcc
+
+Alignment 14:
+-tca-a-g------cgtta-
+attaaaggtttataccttcc
+
+Alignment 15:
+-tcaa--g------cgtta-
+attaaaggtttataccttcc
+
+Alignment 16:
+--tcaag-------cgtta-
+attaaaggtttataccttcc
+
+Alignment 17:
+-t-caag-------cgtta-
+attaaaggtttataccttcc
+
+Alignment 18:
+-tc-aag-------cgtta-
+attaaaggtttataccttcc
+
+Alignment 19:
+-tca-ag-------cgtta-
+attaaaggtttataccttcc
+
+Alignment 20:
+-tcaa-g-------cgtta-
+attaaaggtttataccttcc
+
+Alignment 21:
+--tcaa-gcgt-ta------
+attaaaggtttataccttcc
+
+Alignment 22:
+-t-caa-gcgt-ta------
+attaaaggtttataccttcc
+
+Alignment 23:
+-tc-aa-gcgt-ta------
+attaaaggtttataccttcc
+
+Alignment 24:
+-tca-a-gcgt-ta------
+attaaaggtttataccttcc
+
+Alignment 25:
+-tcaa--gcgt-ta------
+attaaaggtttataccttcc
+
+Alignment 26:
+--tcaag-cgt-ta------
+attaaaggtttataccttcc
+
+Alignment 27:
+-t-caag-cgt-ta------
+attaaaggtttataccttcc
+
+Alignment 28:
+-tc-aag-cgt-ta------
+attaaaggtttataccttcc
+
+Alignment 29:
+-tca-ag-cgt-ta------
+attaaaggtttataccttcc
+
+Alignment 30:
+-tcaa-g-cgt-ta------
+attaaaggtttataccttcc
+
+Alignment 31:
+--tcaagc-gt-ta------
+attaaaggtttataccttcc
+
+Alignment 32:
+-t-caagc-gt-ta------
+attaaaggtttataccttcc
+
+Alignment 33:
+-tc-aagc-gt-ta------
+attaaaggtttataccttcc
+
+Alignment 34:
+-tca-agc-gt-ta------
+attaaaggtttataccttcc
+
+Alignment 35:
+-tcaa-gc-gt-ta------
+attaaaggtttataccttcc
+
+Alignment 36:
+--tcaagcg-t-ta------
+attaaaggtttataccttcc
+
+Alignment 37:
+-t-caagcg-t-ta------
+attaaaggtttataccttcc
+
+Alignment 38:
+-tc-aagcg-t-ta------
+attaaaggtttataccttcc
+
+Alignment 39:
+-tca-agcg-t-ta------
+attaaaggtttataccttcc
+
+Alignment 40:
+-tcaa-gcg-t-ta------
+attaaaggtttataccttcc
+
+Alignment 41:
+-tcaagcg--t-ta------
+attaaaggtttataccttcc
+
+Alignment 42:
+--tcaagcgt--ta------
+attaaaggtttataccttcc
+
+Alignment 43:
+-t-caagcgt--ta------
+attaaaggtttataccttcc
+
+Alignment 44:
+-tc-aagcgt--ta------
+attaaaggtttataccttcc
+
+Alignment 45:
+-tca-agcgt--ta------
+attaaaggtttataccttcc
+
+Alignment 46:
+-tcaa-gcgt--ta------
+attaaaggtttataccttcc
+
+Alignment 47:
+-tcaagcg-t--ta------
+attaaaggtttataccttcc
+
+Alignment 48:
+-tcaagcgt---ta------
+attaaaggtttataccttcc
+
+Alignment 49:
+--tcaagcgtt--a------
+attaaaggtttataccttcc
+
+Alignment 50:
+-t-caagcgtt--a------
+attaaaggtttataccttcc
+
+Alignment 51:
+-tc-aagcgtt--a------
+attaaaggtttataccttcc
+
+Alignment 52:
+-tca-agcgtt--a------
+attaaaggtttataccttcc
+
+Alignment 53:
+-tcaa-gcgtt--a------
+attaaaggtttataccttcc
+
+Alignment 54:
+-tcaagcg-tt--a------
+attaaaggtttataccttcc
+
+Alignment 55:
+-tcaagcgt-t--a------
+attaaaggtttataccttcc
+
+Alignment 56:
+-tcaagcgtt---a------
+attaaaggtttataccttcc
+
+Alignment 57:
+--tcaagcgtta--------
+attaaaggtttataccttcc
+
+Alignment 58:
+-t-caagcgtta--------
+attaaaggtttataccttcc
+
+Alignment 59:
+-tc-aagcgtta--------
+attaaaggtttataccttcc
+
+Alignment 60:
+-tca-agcgtta--------
+attaaaggtttataccttcc
+
+Alignment 61:
+-tcaa-gcgtta--------
+attaaaggtttataccttcc
+
+Alignment 62:
+-tcaagcg-tta--------
+attaaaggtttataccttcc
+
+Alignment 63:
+-tcaagcgt-ta--------
+attaaaggtttataccttcc
+
+Alignment 64:
+-tcaagcgtt-a--------
+attaaaggtttataccttcc
+

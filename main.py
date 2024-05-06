@@ -22,7 +22,7 @@ class NeedlemanWunsch:
         # Método para realizar el alineamiento
         self.initialize_matrices()
         self.fill_matrices()
-        self.traceback(self.m, self.n, '', '')
+        #self.traceback(self.m, self.n, '', '')
         self.write_results()
 
     def initialize_matrices(self):
@@ -68,7 +68,7 @@ class NeedlemanWunsch:
 
     def write_results(self):
         # Escritura de los resultados en un archivo
-        with open("alignment_results.txt", "w") as file:
+        with open("alignment_results_6.txt", "w") as file:
             # Escribir la matriz de puntuación
             file.write("Score Matrix:\n")
             for row in self.score_matrix:
@@ -94,8 +94,8 @@ class NeedlemanWunsch:
 # Ejemplo de uso
 seq1 = "ACTGATTCA"
 seq2 = "ACGCATCA"
-seq3 = "HEAGWAGHEE"
-seq4 = "PAWHEAE"
-nw = NeedlemanWunsch(seq1, seq2)
-#nw = NeedlemanWunsch(seq3, seq4)
+seq3 = "atggaagcaatatcactgatgactatactactggtggtaacaacaagtaatgcagacaaaatctgcatcggtcaccaatcaacaaattccacggaaactgtagacacgctaacagaaacaaatgttcctgtaacacaagccaaagaattgctccacacagaacacaatgggatgctatgtgcaacaaatctgggacgtcctcttatcctagacacatgcaccattgaaggactgatctatggcaacccatcttgtgacatgctgttaggaggaagggaatggtcctacatcgtcgaaagaccgtccgcagtaaatggaacatgctaccctggaaatgtagaaaacctagaggaacttagaacactttttagctcctctagttcttaccaaagagtccaactctttccagactcaatctggaatgtgacttacactgggacaagcaaatcatgttcagattcattctataggaatatgagatggttaactcaaaagaatgggggttatccaattcaagatgcccagtacacaaacaataggggaaaggacattcttttcgtgtggggcatacatcatccaccaaccgatactgcacagacgaatttatatacaaggaccgacacaacaacaagtgtaacaacggagactttagataggaccttcaaaccattgatagggccaaggccccttgtcaatggtctaattggaagaattaattactattggtcggtactaaaaccaggccaaacgttgcgagtgagatcaaatggaaatctaattgctccatggtttggacatgttctctcaggtgagagccatgtgagaatcctgagaactgatttaagcagcggtaattgtgtggtacaatgccagactgaaaaaggtggcctaaacagtacaatgccatttcacaacatcagcaaatatgcttttgggacctgtcccaaatatattggagtcaagagtctcaaactggcaattggccttagaaacgtacatgctaggtcaagtagaggactattcggagcgatagctggattcatagaaggaggttggccaggactagtcgccggttggtat"
+seq4 = "attaaaggtttataccttcccaggtaacaaaccaaccaatttcgatctcttgtagatctgttctctaaacgaactttaaaatctgtgtggctgtcactcggctgcatgcttagtgcactcacgcagtataattaataactaattactgtcgttgacaggacacgagtaactcgtctatcttctgcaggctgcttacggtttcgtccgtgttgcagccgatcatcagcacatctaggtttcgtccgggtgtgaccgaaggtaagatggagagccttgtccctggtttcaacgagaaaacacacgtccaactcagtttgccgttttacaggttcgcgacgtgctcgtacgtggctttggagactccgtggaggaggtcttatcagaggcacgtcaacatcttaaagatggcacttgtggcttagtagaagttgaaaaaggcgttttgccctcaacttgaacagccctatgtgttcatcaaacgttcggatgctcgaactgcacctcatggtcatgttatggttgagctggtagcagaactcgaaggcattcagtacggtcgtagtggtgagacacttggtgtccttgtccctcatgtgggcgaaataccagtggcttaccgcaaggttcttcttcgtaagaacggtaataaaggagctggtggccatagtacggcgccgatctaaagtcatgacttaggcgacgagcttggcactgatccttatgaagattttcaagaaaactggaacactaaacatagcagtggtgttacccgtgaactcatgcgtgagcttaacggaggggcatacactcgctatgtcgataacaacttctgtggccctgatggctaccctcttgagtgcattaaagaccttctagcacgtgctggtaaagcttcaatgcactttgtccgaacaactggactttattgacactaagaggggtgtata"
+#nw = NeedlemanWunsch(seq1, seq2)
+nw = NeedlemanWunsch(seq3, seq4)
 nw.align()
