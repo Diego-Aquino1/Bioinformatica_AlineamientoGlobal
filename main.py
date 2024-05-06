@@ -94,5 +94,8 @@ class NeedlemanWunsch:
 # Ejemplo de uso
 seq1 = "ACTGATTCA"
 seq2 = "ACGCATCA"
+seq3 = "HEAGWAGHEE"
+seq4 = "PAWHEAE"
 nw = NeedlemanWunsch(seq1, seq2)
+#nw = NeedlemanWunsch(seq3, seq4)
 nw.align()
